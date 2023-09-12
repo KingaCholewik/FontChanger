@@ -10,11 +10,26 @@ body{
   justify-content: start;
   align-items: center;
   font-family: Arial;
+  background-color: darkblue;
+  color: white;
 }
 .rangeInput{
   width: 300px;
+
+  -webkit-appearance: none; 
+background: white;
+outline: 0; 
+margin: 40px 0;
+border-radius: 10px;
+cursor: pointer;
 }
+
 
 .sampleText{
   font-size: 20px;
+}
+
+
+select{
+  margin: 0px 0px 20px 0px;
 }
